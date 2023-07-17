@@ -1,0 +1,21 @@
+{
+    "name": "sony/sony",
+    "autoload": {
+        "psr-4": {
+            "Sony\\Sony\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehman Manafov",
+            "email": "manafov.mehman.89@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4",
+        "ext-mysqli": "*"
+    }
+}
