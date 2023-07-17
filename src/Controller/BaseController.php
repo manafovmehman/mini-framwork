@@ -2,7 +2,7 @@
 
 namespace Sony\Sony\Controller;
 
-class EmployeeAbstractBaseController
+class BaseController
 {
     public function getLoggedInUser(): void {
 

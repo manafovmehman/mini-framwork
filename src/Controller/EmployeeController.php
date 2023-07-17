@@ -7,7 +7,7 @@ namespace Sony\Sony\Controller;
 use Sony\Sony\Message\EmployeeGetMessage;
 use Sony\Sony\Repository\EmployeeInMemoryCacheDecoratorRepository;
 
-class EmployeeController extends EmployeeAbstractBaseController
+class EmployeeController extends BaseController
 {
     private EmployeeInMemoryCacheDecoratorRepository $employeeRepository;
 
