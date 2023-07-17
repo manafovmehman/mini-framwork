@@ -18,8 +18,6 @@ try {
 
     $operation = $_GET['action'] ?? null;
 
-    $operation = 'getAllEmployees';
-
     if (method_exists($controller, $operation)) {
         /** @var AbstractResponse $response */
         $response = $controller->{$operation}();
